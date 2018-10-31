@@ -10,10 +10,10 @@
                 <a class="nav-link" href="<c:url value="home.htm"/>">Usuarios</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="<c:url value="home.htm"/>">Enfermedades</a>
+                <a class="nav-link" href="<c:url value="hone.htm"/>">Enfermedades</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="<c:url value="home.htm"/>">Hospitales</a>
+                <a class="nav-link" href="<c:url value="hosp.htm"/>">Hospitales</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="<c:url value="home.htm"/>">Historial Médico</a>

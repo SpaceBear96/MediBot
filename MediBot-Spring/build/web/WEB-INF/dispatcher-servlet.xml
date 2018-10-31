@@ -8,14 +8,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
-
+    
+    
     <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
-
+    
     <!--
     Most controllers will use the ControllerClassNameHandlerMapping above, but
     for the index controller we are using ParameterizableViewController, so we must
     define an explicit mapping for it.
     -->
+    
     <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
             <props>
@@ -24,6 +26,8 @@
                 <prop key="add.htm">addController</prop>
                 <prop key="edit.htm">editController</prop>
                 <prop key="delete.htm">deleteController</prop>
+                <prop key="hone.htm">honeController</prop>
+                <prop key="hosp.htm">hospController</prop>
             </props>
         </property>
     </bean>
@@ -41,7 +45,12 @@
           class="com.medibot.controller.EditController" />
     <bean name="deleteController"
           class="com.medibot.controller.DeleteController" />
-    <bean name="indexController"
+    <bean name="hospController"
+          class="com.medibot.controller.HospController" />
+    <bean name="honeController"
+          class="com.medibot.controller.HoneController"/>
+
+    <bean name="indexController" 
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />
 

@@ -4,10 +4,19 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/web/WEB-INF/jsp/home.jsp</file>
-            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/web/WEB-INF/dispatcher-servlet.xml</file>
-            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/modelos/Usuarios.java</file>
-            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/controller/HomeController.java</file>
             <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/controller/AddController.java</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/web/WEB-INF/jsp/hone.jsp</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/controller/HoneController.java</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/controller/HospController.java</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/modelos/Hospitales.java</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/web/WEB-INF/dispatcher-servlet.xml</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/modelos/EnfermedadesValidar.java</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/web/WEB-INF/vistas/header.jsp</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/web/WEB-INF/jsp/hosp.jsp</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/modelos/Usuarios.java</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/modelos/HospitalValidar.java</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/web/WEB-INF/jsp/index.jsp</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/controller/HomeController.java</file>
             <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/modelos/Conectar.java</file>
         </group>
     </open-files>
