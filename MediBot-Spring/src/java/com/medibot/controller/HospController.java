@@ -32,13 +32,16 @@ public class HospController {
                 sql="select * from hospital";
                 break;
             case 2:
-                sql="select * from hospital order by nombre asc";
+                sql="select * from hospital order by c_distrito asc";
                 break;
             case 3:
-                sql="select * from hospital order by id asc";
+                sql="select * from hospital order by nombre asc";
                 break;
             case 4:
-                sql="select * from hospital order by id desc";
+                sql="select * from hospital order by nombre desc";
+                break;
+            case 5:
+                sql="select * from hospital order by c_distrito desc";
                 break;
         }
 

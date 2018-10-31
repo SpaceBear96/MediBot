@@ -15,23 +15,24 @@
             <div class="row col-md-12">
             <h1>Listado de Hospitales</h1>
                 <p>
-                    <a href="<c:url value="add.htm"/>" class="btn btn-success">
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Agregar
-                    </a>
                         
                 <h4>Ordenar:</h4> 
-                        Id:<a href="<c:url value="hone.htm?cond=3"/>">
+                        Nombre:<a href="<c:url value="hosp.htm?cond=3"/>">
                                         <span class="glyphicon glyphicon-sort-by-order" aria-hidden="true"></span> 
                                         
                                     </a>
-                            <a href="<c:url value="hone.htm?cond=4"/>">
+                            <a href="<c:url value="hosp.htm?cond=4"/>">
                                         <span class="glyphicon glyphicon-sort-by-order-alt" aria-hidden="true"></span> 
                                         
                                     </a>
-                        Nombre:<a href="<c:url value="hone.htm?cond=2"/>">
+                        Distrito:<a href="<c:url value="hosp.htm?cond=2"/>">
                                         <span class="glyphicon glyphicon-sort-by-alphabet" aria-hidden="true"></span> 
                                         
                                     </a>
+                                  <a href="<c:url value="hosp.htm?cond=5"/>">
+                                        <span class="glyphicon glyphicon-sort-by-alphabet" aria-hidden="true"></span> 
+                                        
+                                  </a>
                                         
                 </p>
                 
@@ -40,7 +41,7 @@
                         <tr>
                             <th>ID</th> 
                             <th>Nombre</th> 
-                            <th>Direccion</th> 
+                            <th>Distrito</th> 
                             <th>Acciones</th> 
                         </tr>
                     </thead>
@@ -54,7 +55,7 @@
                                     <c:out value="${dato.nombre}"/> 
                                 </td>
                                 <td>
-                                    <c:out value="${dato.descripcion}"/> 
+                                    <c:out value="${dato.c_distrito}"/> 
                                 </td>
                                 <td>
                                     <a href="<c:url value="edit_enfer.htm?id=${dato.id}"/>">

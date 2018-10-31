@@ -15,9 +15,6 @@
             <div class="row col-md-12">
             <h1>Listado de Enfermedades</h1>
                 <p>
-                    <a href="<c:url value="add.htm"/>" class="btn btn-success">
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Agregar
-                    </a>
                         
                 <h4>Ordenar:</h4> 
                         Id:<a href="<c:url value="hone.htm?cond=3"/>">
