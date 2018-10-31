@@ -23,7 +23,7 @@ while txtMsj != "bye":
     ).get_result()
 
     ##response -> object
-    print(json.dumps(response['output']['text'], indent=2))
+    print(json.dumps(response, indent=2))
     
     
 
