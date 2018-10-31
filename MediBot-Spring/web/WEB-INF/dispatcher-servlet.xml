@@ -21,7 +21,9 @@
             <props>
                 <prop key="index.htm">indexController</prop>
                 <prop key="home.htm">homeController</prop>
-                
+                <prop key="add.htm">addController</prop>
+                <prop key="edit.htm">editController</prop>
+                <prop key="delete.htm">deleteController</prop>
             </props>
         </property>
     </bean>
@@ -33,6 +35,12 @@
 
     <bean name="homeController"
           class="com.medibot.controller.HomeController" />
+    <bean name="addController"
+          class="com.medibot.controller.AddController" />
+    <bean name="editController"
+          class="com.medibot.controller.EditController" />
+    <bean name="deleteController"
+          class="com.medibot.controller.DeleteController" />
     <bean name="indexController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />

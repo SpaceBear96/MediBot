@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Junior/Documents/NetBeansProjects/Medi_Bot/web/redirect.jsp</file>
-            <file>file:/C:/Users/Junior/Documents/NetBeansProjects/Medi_Bot/web/WEB-INF/jsp/index.jsp</file>
-            <file>file:/C:/Users/Junior/Documents/NetBeansProjects/Medi_Bot/web/WEB-INF/dispatcher-servlet.xml</file>
-            <file>file:/C:/Users/Junior/Documents/NetBeansProjects/Medi_Bot/web/WEB-INF/applicationContext.xml</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/web/WEB-INF/jsp/home.jsp</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/web/WEB-INF/dispatcher-servlet.xml</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/modelos/Usuarios.java</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/controller/HomeController.java</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/controller/AddController.java</file>
+            <file>file:/C:/Users/Junior/Desktop/MediBot-Github/MediBot/MediBot-Spring/src/java/com/medibot/modelos/Conectar.java</file>
         </group>
     </open-files>
 </project-private>

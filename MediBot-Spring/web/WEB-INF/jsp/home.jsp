@@ -9,14 +9,30 @@
     </head>
     <body>
         
-        <h1>Registro de Usuarios</h1>
+    <div class="container">
+    <%@ include file="/WEB-INF/vistas/header.jsp" %>
         
-        <div class="container">
-            <div class="row">
+            <div class="row col-md-12">
+            <h1>Listado de Usuarios</h1>
                 <p>
                     <a href="<c:url value="add.htm"/>" class="btn btn-success">
                         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Agregar
                     </a>
+                        
+                <h4>Ordenar:</h4> 
+                        Id:<a href="<c:url value="home.htm?cond=3"/>">
+                                        <span class="glyphicon glyphicon-sort-by-order" aria-hidden="true"></span> 
+                                        
+                                    </a>
+                            <a href="<c:url value="home.htm?cond=4"/>">
+                                        <span class="glyphicon glyphicon-sort-by-order-alt" aria-hidden="true"></span> 
+                                        
+                                    </a>
+                        Nombre:<a href="<c:url value="home.htm?cond=2"/>">
+                                        <span class="glyphicon glyphicon-sort-by-alphabet" aria-hidden="true"></span> 
+                                        
+                                    </a>
+                                        
                 </p>
                 
                 <table class="table table-bordered table-striped table-hover">
